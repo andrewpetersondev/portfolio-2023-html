@@ -1,529 +1,697 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrew Peterson || Projects</title>
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Andrew Peterson || Projects</title>
-  <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
-  <!-- css -->
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-
-<body>
-  <!-- navbar -->
-  <nav class="nav" id="nav">
-    <div class="nav-center">
-      <!-- nav header -->
-      <div class="nav-header">
-        <h2 class="nav-logo">A<span class="nav-logo-text">P</span></h2>
-        <button class="nav-btn" id="nav-btn">
-          <i class="fas fa-bars"></i>
-        </button>
+  <body>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <h2 class="nav-logo">A<span class="nav-logo-text">P</span></h2>
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav links -->
+        <ul class="nav-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
       </div>
-      <!-- nav links -->
-      <ul class="nav-links">
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="projects.html">projects</a></li>
-        <li><a href="contact.html">contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <!-- end of navbar -->
-  <!-- sidebar -->
-  <aside class="sidebar" id="sidebar">
-    <div>
-      <button id="close-btn" class="close-btn">
-        <i class="fas fa-times"></i>
-      </button>
-      <ul class="sidebar-links">
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="projects.html">projects</a></li>
-        <li><a href="contact.html">contact</a></li>
-      </ul>
-      <ul class="social-icons">
-        <!-- single item -->
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+        <ul class="social-icons">
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-squarespace"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <header class="projects-hero">
+      <!-- section title -->
+      <div class="section-title">
+        <h1>my projects</h1>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+    </header>
+    <section class="section">
+      <div class="section-center projects-page-center">
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/jobify.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://mern-course-jobify-knmu.onrender.com/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>jobify</h4>
+            <p>
+              This MERN app provides a way to simplify the job-application
+              process. Users are able input, track, and sort thousands of job
+              applications so they never forget where they have applied to!
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/jobify"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/authorization.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://auth-workflow-ky8z.onrender.com"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Authorization</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/auth-workflow"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/ecommerce.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://ecommerce-api-nm7y.onrender.com/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>E-commerce API</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/ecommerce-api"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/file-upload.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://file-upload-sjyc.onrender.com/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>File Upload</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/file-upload"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/cpi-photo.jpg"
+              alt="single project"
+            />
+            <a href="assets/cpi-predictor.pdf" class="project-icon">
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Consumer Price Index Predictor</h4>
+            <p>
+              The purpose of this project was to create an interval forecast for
+              a quarterly economic variable. It required using predictive
+              forecasting, regression, stata, and advanced statistical methods.
+              Click the icon to download the paper!
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/jobify"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/denver.jpg"
+              alt="single project"
+            />
+            <a href="assets/denvers-real-estate.pdf" class="project-icon">
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Factors of Denver's Residential Real Estate</h4>
+            <p>
+              The purpose of this project was to use python, data exploration
+              techniques, and data visualization to show the economically
+              important factors in Denver's real estate market for residential
+              properties.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a
+                href="https://github.com/andrewpetersondev/denver-data-analytics"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/uber.jpg"
+              alt="single project"
+            />
+            <a href="assets/rise-of-rideshare.pdf" class="project-icon">
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>The Rise of Rideshare in the US Urban Mobility Market</h4>
+            <p>
+              The purpose of this project was to utilize an academic approach in
+              ...
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/jobify">Document</a>
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/battery.jpg"
+              alt="single project"
+            />
+            <a href="assets/battery-storage.pdf" class="project-icon">
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>
+              Measuring Markup and the Returns to Scale in the U.S. Storage
+              Battery Manufacturing Industry 1958-2016
+            </h4>
+            <p>
+              This paper shows the evolution of the markup of price over
+              marginal cost and output elasticity of cost for the US storage
+              battery manufacturing industry, which is NAICS sector 335911.
+              Based on our research, we have found that firms in the storage
+              battery manufacturing industry do not have significant market
+              power, which can help explain why the markup in this sector
+              decreases over the time period.
+            </p>
+            <div class="project-footer">
+              <span>
+                <!-- <i class="fab fa-github"></i> -->
+              </span>
+              <a href="https://github.com/andrewpetersondev/jobify">Document</a>
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/train.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://andrewpetersondev.github.io/basic-train-scheduler/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Train Scheduler</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a
+                href="https://github.com/andrewpetersondev/basic-train-scheduler"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/liri-node-app.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://github.com/andrewpetersondev/liri-node-app"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>LIRI Node App</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/liri-node-app"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/gif.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://andrewpetersondev.github.io/gifTastic/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>GifTastic</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/gifTastic"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/trivia.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://andrewpetersondev.github.io/trivia-game/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Trivia Game Advanced</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/trivia-game"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/trivia.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://andrewpetersondev.github.io/trivia-game-basic/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Trivia Game Basic</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/trivia-game-basic"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/game-of-thrones.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://andrewpetersondev.github.io/unit-4-game/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>GoT RPG</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/unit-4-game"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/crystals.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://andrewpetersondev.github.io/crystals-collector-game/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Crystals Collector Game</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a
+                href="https://github.com/andrewpetersondev/crystals-collector-game"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/hangman.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://andrewpetersondev.github.io/word-guess-game/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Word Guess Game</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/word-guess-game"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img
+              class="project-img"
+              src="./images/psychic-game.jpg"
+              alt="single project"
+            />
+            <a
+              href="https://andrewpetersondev.github.io/psychic-game/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Psychic Game</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime magnam impedit corporis tempora libero
+              architecto dolore, assumenda dicta eaque.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+              <a href="https://github.com/andrewpetersondev/psychic-game"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+      </div>
+    </section>
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <!-- social icons -->
+      <ul class="social-icons hero-icons">
         <li>
-          <a href="https://www.twitter.com" class="social-icon">
-            <i class="fab fa-facebook"></i>
+          <a href="https://github.com/andrewpetersondev" class="social-icon">
+            <i class="fab fa-github"></i>
           </a>
         </li>
-        <!-- end of single item -->
-        <!-- single item -->
         <li>
-          <a href="https://www.twitter.com" class="social-icon">
+          <a
+            href="https://www.linkedin.com/in/andrew-peterson-005b11189/"
+            class="social-icon"
+          >
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
-        <!-- end of single item -->
-        <!-- single item -->
         <li>
-          <a href="https://www.twitter.com" class="social-icon">
-            <i class="fab fa-squarespace"></i>
+          <a href="https://github.com/andrewpetersondev" class="social-icon">
+            <i class="fab fa-medium"></i>
           </a>
         </li>
-        <!-- end of single item -->
-        <!-- single item -->
-        <li>
-          <a href="https://www.twitter.com" class="social-icon">
-            <i class="fab fa-behance"></i>
-          </a>
-        </li>
-        <!-- end of single item -->
-        <!-- single item -->
-        <li>
-          <a href="https://www.twitter.com" class="social-icon">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-        <!-- end of single item -->
       </ul>
-    </div>
-  </aside>
-  <!-- end of sidebar -->
 
-  <!-- ############## -->
-  <!-- ############## -->
-  <!-- ############## -->
-  <!-- ############## -->
-  <header class="projects-hero">
-    <!-- section title -->
-    <div class="section-title">
-      <h1>my projects</h1>
-      <div class="underline"></div>
-    </div>
-    <!--end of section title -->
-  </header>
-  <section class="section">
-    <div class="section-center projects-page-center">
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/jobify.jpg" alt="single project" />
-          <a href="https://mern-course-jobify-knmu.onrender.com/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>jobify</h4>
-          <p>
-            This MERN app provides a way to simplify the job-application process. Users are able input, track, and sort
-            thousands of job applications so they never forget where they have applied to!
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/jobify">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/authorization.jpg" alt="single project" />
-          <a href="https://auth-workflow-ky8z.onrender.com" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>Authorization</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/auth-workflow">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/ecommerce.jpg" alt="single project" />
-          <a href="https://ecommerce-api-nm7y.onrender.com/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>E-commerce API</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/ecommerce-api">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/file-upload.jpg" alt="single project" />
-          <a href="https://file-upload-sjyc.onrender.com/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>File Upload</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/file-upload">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/cpi-photo.jpg" alt="single project" />
-          <a href="assets/CPI Project Report.pdf" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>Consumer Price Index Predictor</h4>
-          <p>
-            The purpose of this project was to create an interval forecast for a quarterly economic variable. It
-            required using predictive forecasting, regression, stata, and advanced statistical methods. Click the icon
-            to download the paper!
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/jobify">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/denver.jpg" alt="single project" />
-          <a href="assets/Factors of Denvers Real Estate Project.pdf" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>Factors of Denver's Residential Real Estate</h4>
-          <p>
-            The purpose of this project was to use python, data exploration techniques, and data visualization to show
-            the economically important factors in Denver's real estate market for residential properties.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/denver-data-analytics">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/uber.jpg" alt="single project" />
-          <a href="assets/Rise of Rideshare Paper.pdf" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>The Rise of Rideshare in the US Urban Mobility Market</h4>
-          <p>
-            The purpose of this project was to utilize an academic approach in ...
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/jobify">Document</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/battery.jpg" alt="single project" />
-          <a href="assets/Empirical Project V.pdf" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>Measuring Markup and the Returns to Scale in the U.S. Storage Battery Manufacturing Industry 1958-2016
-          </h4>
-          <p>
-            This paper shows the evolution of the markup of price over marginal cost and output elasticity of cost for
-            the US storage battery manufacturing industry, which is NAICS sector 335911. Based on our research, we have
-            found that firms in the storage battery manufacturing industry do not have significant market power, which
-            can help explain why the markup in this sector decreases over the time period.
-          </p>
-          <div class="project-footer">
-            <span>
-              <!-- <i class="fab fa-github"></i> -->
-            </span>
-            <a href="https://github.com/andrewpetersondev/jobify">Document</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/train.jpg" alt="single project" />
-          <a href="https://andrewpetersondev.github.io/basic-train-scheduler/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>Train Scheduler</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/basic-train-scheduler">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/liri-node-app.jpg" alt="single project" />
-          <a href="https://github.com/andrewpetersondev/liri-node-app" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>LIRI Node App</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/liri-node-app">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/gif.jpg" alt="single project" />
-          <a href="https://andrewpetersondev.github.io/gifTastic/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>GifTastic</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/gifTastic">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/trivia.jpg" alt="single project" />
-          <a href="https://andrewpetersondev.github.io/trivia-game/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>Trivia Game Advanced</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/trivia-game">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/trivia.jpg" alt="single project" />
-          <a href="https://andrewpetersondev.github.io/trivia-game-basic/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>Trivia Game Basic</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/trivia-game-basic">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/game-of-thrones.jpg" alt="single project" />
-          <a href="https://andrewpetersondev.github.io/unit-4-game/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>GoT RPG</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/unit-4-game">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/crystals.jpg" alt="single project" />
-          <a href="https://andrewpetersondev.github.io/crystals-collector-game/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>Crystals Collector Game</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/crystals-collector-game">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/hangman.jpg" alt="single project" />
-          <a href="https://andrewpetersondev.github.io/word-guess-game/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>Word Guess Game</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/word-guess-game">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-      <!-- single project -->
-      <article class="single-project">
-        <div class="project-container">
-          <img class="project-img" src="./images/psychic-game.jpg" alt="single project" />
-          <a href="https://andrewpetersondev.github.io/psychic-game/" class="project-icon">
-            <i class="fas fa-home"></i>
-          </a>
-        </div>
-        <div class="project-details">
-          <h4>Psychic Game</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime magnam impedit corporis tempora
-            libero architecto dolore, assumenda dicta eaque.
-          </p>
-          <div class="project-footer">
-            <span>
-              <i class="fab fa-github"></i>
-            </span>
-            <a href="https://github.com/andrewpetersondev/psychic-game">source code</a>
-          </div>
-        </div>
-      </article>
-      <!-- end of single project -->
-    </div>
-  </section>
-  <!-- ############## -->
-  <!-- ############## -->
-  <!-- ############## -->
-  <!-- ############## -->
-
-  <!-- footer -->
-  <footer class="footer">
-    <!-- social icons -->
-    <ul class="social-icons hero-icons">
-      <li>
-        <a href="https://github.com/andrewpetersondev" class="social-icon">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/andrew-peterson-005b11189/" class="social-icon">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/andrewpetersondev" class="social-icon">
-          <i class="fab fa-medium"></i>
-        </a>
-      </li>
-    </ul>
-
-    <p>&copy; <span id="date"></span> andrew peterson. All rights reserved.</p>
-  </footer>
-  <script src="./js/app.js"></script>
-</body>
-
+      <p>
+        &copy; <span id="date"></span> andrew peterson. All rights reserved.
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
